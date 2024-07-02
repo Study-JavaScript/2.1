@@ -25,6 +25,21 @@ Crea un front-end para comprobar la funcionalidad de la función debounce .
 
 ## [Recursos](https://github.com/SKRTEEEEEE/markdowns/)
 ### [Empezando](https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/how-start/ts-compiled_es.md)
+
+#### Realizar test
+Para iniciar los test de la aplicación, ejecuta:
+
+```bash
+npm test
+```
+
+#### Iniciar el Servidor de Desarrollo
+Para iniciar el servidor de desarrollo de la aplicación Node.js y usarla en CLI, ejecuta:
+
+```bash
+node dist/cli
+```
+
 ## Contacto
 
 ### Agradecimientos
