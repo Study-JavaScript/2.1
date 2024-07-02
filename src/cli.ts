@@ -1,6 +1,6 @@
 //Mixed debounce function
 
-import { debounce } from './app';
+import { debounce } from './debounce';
 import readline from 'readline';
 
 const rl = readline.createInterface({

@@ -19,7 +19,7 @@ Implementar una función debounce. La función debe ser implementada utilizando 
 #### Nivel 1
 Utiliza tests para comprobar la funcionalidad de la función debounce .
 #### Nivel 2
-Crea una CLI para comprobar la funcionalidad de la función de abounce .
+Crea una CLI para comprobar la funcionalidad de la función de debounce .
 #### Nivel 3
 Crea un front-end para comprobar la funcionalidad de la función debounce .
 
@@ -33,12 +33,33 @@ Para iniciar los test de la aplicación, ejecuta:
 npm test
 ```
 
+#### Compilación
+
+Para compilar los archivos, ejecuta:
+
+```bash
+npm run build
+```
+
 #### Iniciar el Servidor de Desarrollo
 Para iniciar el servidor de desarrollo de la aplicación Node.js y usarla en CLI, ejecuta:
 
 ```bash
 node dist/cli
+## or
+npm run start:cli
 ```
+
+Para iniciar el servidor de desarrollo de la aplicación Node.js y usarla en el cliente(Frontend), revisa que tengas libre el puerto 4001, luego ejecuta:
+
+```bash
+node dist/server
+## or
+npm run start:server
+```
+
+Luego podrás acceder a traves de tu navegador favorito a la aplicación usando [el puerto 4001](https://localhost:4001)
+
 
 ## Contacto
 

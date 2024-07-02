@@ -1,4 +1,4 @@
-import { debounce } from './app';
+import { debounce } from './debounce';
 
 // Define una función mock para usar como argumento en debounce
 const mockFunc = jest.fn();
