@@ -24,7 +24,8 @@ Crea una CLI para comprobar la funcionalidad de la función de debounce .
 Crea un front-end para comprobar la funcionalidad de la función debounce .
 
 ## [Recursos](https://github.com/SKRTEEEEEE/markdowns/)
-### [Empezando](https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/how-start/ts-compiled_es.md)
+### [Empezando](https://github.com/SKRTEEEEEE/markdowns/blob/main/utils/how-start/ts-tw_es.md)
+
 
 #### Realizar test
 Para iniciar los test de la aplicación, ejecuta:
