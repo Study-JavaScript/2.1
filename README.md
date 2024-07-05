@@ -25,16 +25,16 @@ Crea un front-end para comprobar la funcionalidad de la función debounce .
 
 ## [Recursos](https://github.com/SKRTEEEEEE/markdowns/)
 ### Empezando
-Para ver las diferentes partes del proyecto, navega a las diferentes ramas del proyecto una vez clonado con `git clone https://github.com/Study-JavaScript/2.1.git`.
+Para ver las diferentes partes del proyecto, navega a las diferentes ramas del proyecto una vez clonado con `git clone https://github.com/Study-JavaScript/ej2.1.git`.
 #### Estructura ramas.
 ##### `main`
 Rama principal del proyecto.
-##### [`test/cli`](https://github.com/Study-JavaScript/2.1/tree/test/cli)
+##### [`test/cli`](https://github.com/Study-JavaScript/ej2.1/tree/test/cli)
 Rama con unicamente el test y uso de la función `debounce()`. Para dirigirte utiliza el siguiente comando en la carpeta principal:
 ```bash
 git checkout test/cli
 ```
-##### [`app`](https://github.com/Study-JavaScript/2.1/tree/app)
+##### [`app`](https://github.com/Study-JavaScript/ej2.1/tree/app)
 Rama con la utilización de la función debounce en el ejercicio 1.1. Para dirigirte utiliza el siguiente comando en la carpeta principal:
 ```bash
 git checkout app
