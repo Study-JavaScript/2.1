@@ -9,6 +9,8 @@
 </a>
 
 Ejercicio practico 2.1, para el curso de [NodeJS](https://nodejs.org/en) de [ItAcademy](https://www.barcelonactiva.cat/es/itacademy).
+_**La pagina desplegada representa una copia de esta parte realizada con express, para ver el código dirige-te al siguiente link:**_
+- [_**https://github.com/SKRTEEEEEE/ItAcademy/tree/main/callback/app**_](https://github.com/SKRTEEEEEE/ItAcademy/tree/main/callback/app)
 
 ## Información del proyecto
 
