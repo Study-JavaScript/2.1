@@ -1,6 +1,3 @@
-// Funciones App To Do List
-
-
 export interface Task {
   id: number;
   description: string;
@@ -9,11 +6,9 @@ export interface Task {
 
 export let tasks: Task[] = [];
 
-// Función para verificar si un ID ya existe
 const idExists = (id: number): boolean => {
   return tasks.some(task => task.id === id);
 }
-// Generador de ID único
 const generateUniqueId = (): number => {
   let id: number = 1;
   while(idExists(id)){
@@ -43,7 +38,7 @@ export const listTasks = (): Task[] => {
   task id: ${task.id}
 `);
   });
-  return tasks; // Devuelve el array de tareas
+  return tasks; 
 };
 export const completeTask = (id: number): void => {
   const task = tasks.find(task => task.id === id);

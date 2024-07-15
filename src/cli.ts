@@ -1,4 +1,3 @@
-//Mixed debounce function
 
 import { debounce } from './debounce';
 import readline from 'readline';
@@ -14,11 +13,9 @@ console.log(`Debounce test function CLI:
 Send a message to call the debounced 5 sec example function:
 (Type 'exit' to quit)
 `);
-
-// Función de ejemplo para usar con debounce
 function exampleFunction(text: string) {
     console.log(`Example function called with: ${text}`);
-    rl.prompt() // Llamar al prompt una vez ejecutada la función
+    rl.prompt() 
 }
 
 const debouncedFunc = debounce((input: string) => {
